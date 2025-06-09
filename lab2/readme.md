@@ -14,7 +14,7 @@
 - NumPy
 - Matplotlib
 
-安装依赖（或者直接用我配好的虚拟环境![img.png](img.png)）：
+安装依赖（或者直接用我配好的虚拟环境）：
 ```bash
 pip install torch torchvision numpy matplotlib
 ```

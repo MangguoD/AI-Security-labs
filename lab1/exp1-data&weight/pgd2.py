@@ -210,7 +210,7 @@ def main():
     # plot_accuracy_vs_alpha(model, device, test_loader, epsilon, alpha_list, step_fixed)
 
     # 绘图3：同时比较多组 (alpha, step) 对某个 epsilon 的影响（仍然只有一个点，但多条线）
-    pgd_param_sets = [
+    # pgd_param_sets = [
     #     (0.05, 1),
     #     (0.075, 2),
     #     (0.1, 2),
@@ -236,8 +236,8 @@ def main():
     # plt.xlim(0, 1.0)
     # plt.grid(axis='x', linestyle='--', alpha=0.6)
     # plt.tight_layout()
-    plt.savefig("pgd_param_sets.png")
-    plt.show()
+    # plt.savefig("pgd_param_sets.png")
+    # plt.show()
     #
 
 if __name__ == '__main__':
